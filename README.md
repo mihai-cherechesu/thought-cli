@@ -1,3 +1,6 @@
+### Info
+You can view everything in this git repo: https://github.com/MihaiCherechesu/thought-cli
+
 ### Setup
 To build this command line tool, install (at least) `go1.19.4` on your machine and simply run `go build -o cpxctl`.
 The cpx mock server has been launched with `./cpx_server.py 8081 --protocol 4`. The protocol is important as the CLI tool hardcodes the port in the source code at the moment.
