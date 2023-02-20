@@ -38,3 +38,5 @@ you can also see line charts for each of them.
 
 ![image](https://user-images.githubusercontent.com/48837715/220001447-34cb1b14-842f-4234-a9d8-010f9318fb97.png)
 
+### Known issues
+1. Using the `--merged --follow` mode and then exiting using `CTRL + C` results in the current terminal session being buggy (invisible cursor, etc). This issue has something to do with the line charts.
