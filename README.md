@@ -11,7 +11,7 @@ one service, by using `--service` flag. You can use `cpxctl --help` to find out 
 
 ### Examples
 1. To get a table with all your services, one can use `cpxctl ls`. 
-2. To get a table with all instances of the same service, one can use `cpxctl ls --service AuthService`. The output should be similar to:
+2. To get a table with all instances of the same service, one can use `cpxctl ls --service RoleService`. The output should be similar to:
 ```
 ┏━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┳━━━━━━┳━━━━━━━━┳━━━━━━━━━━━┓
 ┃ IP          ┃ SERVICE            ┃ CPU  ┃ MEMORY ┃ STATUS    ┃
