@@ -3,7 +3,7 @@ You can view everything in this git repo: https://github.com/MihaiCherechesu/tho
 
 ### Setup
 To build this command line tool, install (at least) `go1.19.4` on your machine and simply run `go build -o cpxctl`.
-The cpx mock server has been launched with `./cpx_server.py 8081 --protocol 4`. The protocol is important as the CLI tool hardcodes the port in the source code at the moment.
+The cpx mock server has been launched with `./cpx_server.py 8081 --protocol 4`. The port is important as the CLI tool hardcodes it in the source code at the moment.
 
 ### Usage
 This CLI currently provides only one subcommand, `ls`, that interacts with the mock cloud provider, so the usage should be pretty straightforward. Filtering can only be done with respect to
